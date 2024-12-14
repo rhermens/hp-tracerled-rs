@@ -107,9 +107,9 @@ mod tests {
     #[test]
     fn test_byte_alignment() {
         let report = LedReport::new(Mode::Static, Zone::Logo, 0x64, [Color(0xFF, 0x00, 0x00); 12]);
-        let zero_bytes = report.as_bytes();
-        assert_eq!(zero_bytes.len(), 58);
-        assert_eq!(zero_bytes, &[
+        let bytes = report.as_bytes();
+        assert_eq!(bytes.len(), 58);
+        assert_eq!(bytes, &[
             0x00, 0x00, 0x12, 0x01,
             0x0C, 0x01, // [Custom color count, number]
             0x00, 0x00,
