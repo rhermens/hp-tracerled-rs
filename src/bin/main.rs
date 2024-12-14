@@ -11,7 +11,7 @@ struct Args {
 }
 
 fn parse_color(arg: &str) -> Result<Color, ParseIntError> {
-    Ok((
+    Ok(Color(
         u8::from_str_radix(&arg[0..2], 16)?,
         u8::from_str_radix(&arg[2..4], 16)?,
         u8::from_str_radix(&arg[4..6], 16)?,

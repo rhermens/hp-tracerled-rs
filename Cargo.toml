@@ -7,3 +7,4 @@ edition = "2021"
 clap = { version = "4.5.15", features = ["derive"] }
 hidapi = "2.6.3"
 strum = { version = "0.26.3", features = ["derive"] }
+zerocopy = { version = "0.8.13", features = ["derive"] }
