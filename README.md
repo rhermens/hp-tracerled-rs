@@ -1,0 +1,1 @@
+--color=FD4001 --mode=static --speed=1
