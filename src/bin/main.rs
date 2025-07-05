@@ -60,5 +60,5 @@ fn main() {
     // ];
 
     let report = LedReport::new(args.mode, Zone::Logo, [args.color; 12], args.brightness, args.theme, args.speed);
-    println!("{:?}", dev.apply_all_zones(&report));
+    println!("{:?}", dev.apply(&report));
 }
