@@ -1,7 +1,7 @@
 use std::num::ParseIntError;
 
 use clap::Parser;
-use hp_tracerled_rs::{Color, HpTracerLedDevice, LedReport, Mode, Zone};
+use hp_tracerled_rs::{Color, HpTracerLedDevice, LedReport, Mode, StaticTheme, Zone};
 
 #[derive(Parser, Debug)]
 #[command(version, about)]
@@ -44,21 +44,7 @@ fn main() {
     let args = Args::parse();
     let dev = HpTracerLedDevice::new();
 
-    // let colors: [Color; 12] = [
-    //     Color(0xFF, 0x00, 0x00),
-    //     Color(0x00, 0xFF, 0x00),
-    //     Color(0x00, 0x00, 0xFF),
-    //     Color(0xFF, 0x00, 0x00),
-    //     Color(0x00, 0xFF, 0x00),
-    //     Color(0x00, 0x00, 0xFF),
-    //     Color(0xFF, 0x00, 0x00),
-    //     Color(0x00, 0xFF, 0x00),
-    //     Color(0x00, 0x00, 0xFF),
-    //     Color(0xFF, 0x00, 0x00),
-    //     Color(0x00, 0xFF, 0x00),
-    //     Color(0x00, 0x00, 0xFF),
-    // ];
-
+    dev.apply_all_zones(&LedReport::new(Mode::Static, Zone::Logo, [args.color; 12], 0, 0, 0));
     let report = LedReport::new(args.mode, Zone::Logo, [args.color; 12], args.brightness, args.theme, args.speed);
     println!("{:?}", dev.apply(&report));
 }
