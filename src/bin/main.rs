@@ -1,7 +1,7 @@
 use std::num::ParseIntError;
 
 use clap::Parser;
-use hp_tracerled_rs::{Color, HpTracerLedDevice, LedReport, Mode, StaticTheme, Zone};
+use hp_tracerled_rs::{Color, HpTracerLedDevice, LedReport, Mode, Zone, REPORT_LED_PINS};
 
 #[derive(Parser, Debug)]
 #[command(version, about)]
@@ -30,7 +30,6 @@ fn zone_from_str(arg: &str) -> Result<Mode, &'static str> {
     }
 }
 
-
 fn parse_color(arg: &str) -> Result<Color, ParseIntError> {
     Ok(Color(
         u8::from_str_radix(&arg[0..2], 16)?,
@@ -44,7 +43,14 @@ fn main() {
     let args = Args::parse();
     let dev = HpTracerLedDevice::new();
 
-    dev.apply_all_zones(&LedReport::new(Mode::Static, Zone::Logo, [args.color; 12], 0, 0, 0));
-    let report = LedReport::new(args.mode, Zone::Logo, [args.color; 12], args.brightness, args.theme, args.speed);
-    println!("{:?}", dev.apply(&report));
+    let result = dev.apply_all_zones(&LedReport::new(
+        Mode::Static,
+        Zone::Logo,
+        [args.color; REPORT_LED_PINS],
+        args.brightness,
+        args.theme,
+        args.speed,
+    ));
+
+    println!("{:?}", result);
 }

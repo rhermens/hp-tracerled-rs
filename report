@@ -1,0 +1,255 @@
+05 01 09 00 a1 01 15 00 25 ff 19 01 29 08 95 3a 75 08 81 02 19 01 29 08 91 02 c0 
+
+  INPUT[INPUT]
+    Field(0)
+      Application(GenericDesktop.0000)
+      Usage(58)
+        GenericDesktop.Pointer
+        GenericDesktop.Mouse
+        GenericDesktop.0003
+        GenericDesktop.Joystick
+        GenericDesktop.Gamepad
+        GenericDesktop.Keyboard
+        GenericDesktop.Keypad
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+      Logical Minimum(0)
+      Logical Maximum(255)
+      Report Size(8)
+      Report Count(58)
+      Report Offset(0)
+      Flags( Variable Absolute )
+  OUTPUT[OUTPUT]
+    Field(0)
+      Application(GenericDesktop.0000)
+      Usage(58)
+        GenericDesktop.Pointer
+        GenericDesktop.Mouse
+        GenericDesktop.0003
+        GenericDesktop.Joystick
+        GenericDesktop.Gamepad
+        GenericDesktop.Keyboard
+        GenericDesktop.Keypad
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+        GenericDesktop.MultiaxisController
+      Logical Minimum(0)
+      Logical Maximum(255)
+      Report Size(8)
+      Report Count(58)
+      Report Offset(0)
+      Flags( Variable Absolute )
+
+GenericDesktop.Pointer ---> Absolute.Misc
+GenericDesktop.Mouse ---> Sync.Report
+GenericDesktop.0003 ---> Sync.Report
+GenericDesktop.Joystick ---> Sync.Report
+GenericDesktop.Gamepad ---> Sync.Report
+GenericDesktop.Keyboard ---> Sync.Report
+GenericDesktop.Keypad ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.Pointer ---> Sync.Report
+GenericDesktop.Mouse ---> Sync.Report
+GenericDesktop.0003 ---> Sync.Report
+GenericDesktop.Joystick ---> Sync.Report
+GenericDesktop.Gamepad ---> Sync.Report
+GenericDesktop.Keyboard ---> Sync.Report
+GenericDesktop.Keypad ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
+GenericDesktop.MultiaxisController ---> Sync.Report
