@@ -1,0 +1,12 @@
+[Unit]
+Description=Set HP Tracerled device colors
+After=multi-user.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/hp-tracerled
+RemainAfterExit=yes
+User=root
+
+[Install]
+WantedBy=multi-user.target
