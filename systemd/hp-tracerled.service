@@ -4,7 +4,7 @@ After=multi-user.target
 
 [Service]
 Type=oneshot
-ExecStart=/usr/local/bin/hp-tracerled
+ExecStart=/usr/local/bin/hp-tracerled --color=FD4001 --mode=static --speed=1
 RemainAfterExit=yes
 User=root
 
