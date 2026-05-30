@@ -65,7 +65,7 @@
               serviceConfig = {
                 Type = "oneshot";
                 RemainAfterExit = true;
-                ExecStart = "${self.packages.${pkgs.system}.default}/bin/hp-tracerled --color=${cfg.color} --mode=${cfg.mode} --speed=${toString cfg.speed}";
+                ExecStart = "${self.packages.${pkgs.stdenv.hostPlatform.system}.default}/bin/hp-tracerled --color=${cfg.color} --mode=${cfg.mode} --speed=${toString cfg.speed}";
               };
             };
           };
